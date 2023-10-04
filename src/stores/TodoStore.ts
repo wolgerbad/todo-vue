@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import TaskInterface from "../interaces/TaskInterface";
+import TaskInterface from "../interfaces/TaskInterface";
 
 export const useTodoStore = defineStore("todo-store", {
     state: () => ({
